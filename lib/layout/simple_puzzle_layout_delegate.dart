@@ -344,7 +344,18 @@ class SimplePuzzleTile extends StatelessWidget {
       onPressed: state.puzzleStatus == PuzzleStatus.incomplete
           ? () => context.read<PuzzleBloc>().add(TileTapped(tile))
           : null,
-      child: Text(tile.value.toString()),
+      child: Stack(
+        alignment: Alignment.center,
+        children: [
+          Image.asset(
+              'images/sliced_tree/tree_${tile.value.toString()}.gif',),
+          Opacity(
+            opacity: 0.3,
+            child: Text(tile.value.toString(),
+                style: const TextStyle(color: Colors.black),),
+          )
+        ],
+      ),
     );
   }
 }
