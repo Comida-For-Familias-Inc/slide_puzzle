@@ -1,0 +1,1 @@
+ /Users/admin/StudioProjects/slide_puzzle/.dart_tool/flutter_gen/gen_l10n/app_localizations_en.dart /Users/admin/StudioProjects/slide_puzzle/.dart_tool/flutter_gen/gen_l10n/app_localizations.dart:  /Users/admin/StudioProjects/slide_puzzle/l10n.yaml /Users/admin/StudioProjects/slide_puzzle/lib/l10n/arb/app_en.arb
