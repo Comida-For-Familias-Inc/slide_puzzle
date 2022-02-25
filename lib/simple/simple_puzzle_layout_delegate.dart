@@ -352,14 +352,16 @@ class SimplePuzzleTile extends StatelessWidget {
       onPressed: state.puzzleStatus == PuzzleStatus.incomplete
           ? () => context.read<PuzzleBloc>().add(TileTapped(tile))
           : null,
-      child: Text(
+      child: Stack(children: [
+        Image.asset('images/dashatar/logo/'+ tile.value.toString() + '.png' ),
+        Text(
         tile.value.toString(),
         semanticsLabel: context.l10n.puzzleTileLabelText(
           tile.value.toString(),
           tile.currentPosition.x.toString(),
           tile.currentPosition.y.toString(),
         ),
-      ),
+      )],),
     );
   }
 }

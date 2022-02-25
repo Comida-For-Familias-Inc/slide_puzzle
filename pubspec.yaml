@@ -39,9 +39,9 @@ flutter:
     - assets/images/audio_control/
     - assets/images/dashatar/gallery/
     - assets/images/dashatar/success/
-    - assets/images/dashatar/green/
-    - assets/images/dashatar/blue/
-    - assets/images/dashatar/yellow/
+    - assets/images/dashatar/racecar/
+    - assets/images/dashatar/city/
+    - assets/images/dashatar/tree/
   fonts:
     - family: GoogleSans
       fonts:

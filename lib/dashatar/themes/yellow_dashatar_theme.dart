@@ -30,10 +30,10 @@ class YellowDashatarTheme extends DashatarTheme {
   Color get countdownColor => PuzzleColors.yellow50;
 
   @override
-  String get themeAsset => 'assets/images/dashatar/gallery/yellow.png';
+  String get themeAsset => 'assets/images/dashatar/gallery/racecar.gif';
 
   @override
-  String get successThemeAsset => 'assets/images/dashatar/success/yellow.png';
+  String get successThemeAsset => 'assets/images/dashatar/success/racecar.gif';
 
   @override
   String get audioControlOffAsset =>
@@ -43,5 +43,5 @@ class YellowDashatarTheme extends DashatarTheme {
   String get audioAsset => 'assets/audio/sandwich.mp3';
 
   @override
-  String get dashAssetsDirectory => 'assets/images/dashatar/yellow';
+  String get dashAssetsDirectory => 'assets/images/dashatar/racecar';
 }

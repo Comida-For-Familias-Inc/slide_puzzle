@@ -62,40 +62,40 @@ class _AppState extends State<App> {
     _timer = Timer(const Duration(milliseconds: 20), () {
       for (var i = 1; i <= 15; i++) {
         precacheImage(
-          Image.asset('assets/images/dashatar/green/$i.png').image,
+          Image.asset('assets/images/dashatar/tree/$i.gif').image,
           context,
         );
         precacheImage(
-          Image.asset('assets/images/dashatar/blue/$i.png').image,
+          Image.asset('assets/images/dashatar/city/$i.gif').image,
           context,
         );
         precacheImage(
-          Image.asset('assets/images/dashatar/yellow/$i.png').image,
+          Image.asset('assets/images/dashatar/racecar/$i.gif').image,
           context,
         );
       }
       precacheImage(
-        Image.asset('assets/images/dashatar/gallery/green.png').image,
+        Image.asset('assets/images/dashatar/gallery/tree.gif').image,
         context,
       );
       precacheImage(
-        Image.asset('assets/images/dashatar/success/green.png').image,
+        Image.asset('assets/images/dashatar/success/tree.gif').image,
         context,
       );
       precacheImage(
-        Image.asset('assets/images/dashatar/gallery/blue.png').image,
+        Image.asset('assets/images/dashatar/gallery/city.gif').image,
         context,
       );
       precacheImage(
-        Image.asset('assets/images/dashatar/success/blue.png').image,
+        Image.asset('assets/images/dashatar/success/city.gif').image,
         context,
       );
       precacheImage(
-        Image.asset('assets/images/dashatar/gallery/yellow.png').image,
+        Image.asset('assets/images/dashatar/gallery/racecar.gif').image,
         context,
       );
       precacheImage(
-        Image.asset('assets/images/dashatar/success/yellow.png').image,
+        Image.asset('assets/images/dashatar/success/racecar.gif').image,
         context,
       );
       precacheImage(

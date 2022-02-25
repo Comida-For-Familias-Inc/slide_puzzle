@@ -55,7 +55,7 @@ void main() {
         when(() => tile.value).thenReturn(tileValue);
         expect(
           GreenDashatarTheme().dashAssetForTile(tile),
-          equals('assets/images/dashatar/green/6.png'),
+          equals('assets/images/dashatar/tree/6.gif'),
         );
       });
     });
@@ -81,7 +81,7 @@ void main() {
         when(() => tile.value).thenReturn(tileValue);
         expect(
           YellowDashatarTheme().dashAssetForTile(tile),
-          equals('assets/images/dashatar/yellow/6.png'),
+          equals('assets/images/dashatar/racecar/6.png'),
         );
       });
     });

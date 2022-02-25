@@ -4,7 +4,7 @@ import 'package:very_good_slide_puzzle/dashatar/dashatar.dart';
 import 'package:very_good_slide_puzzle/l10n/l10n.dart';
 
 /// {@template green_dashatar_theme}
-/// The green dashatar puzzle theme.
+/// The green/tree dashatar puzzle theme.
 /// {@endtemplate}
 class GreenDashatarTheme extends DashatarTheme {
   /// {@macro green_dashatar_theme}
@@ -30,10 +30,10 @@ class GreenDashatarTheme extends DashatarTheme {
   Color get countdownColor => PuzzleColors.green50;
 
   @override
-  String get themeAsset => 'assets/images/dashatar/gallery/green.png';
+  String get themeAsset => 'assets/images/dashatar/gallery/tree.gif';
 
   @override
-  String get successThemeAsset => 'assets/images/dashatar/success/green.png';
+  String get successThemeAsset => 'assets/images/dashatar/success/tree.gif';
 
   @override
   String get audioControlOffAsset =>
@@ -43,5 +43,5 @@ class GreenDashatarTheme extends DashatarTheme {
   String get audioAsset => 'assets/audio/skateboard.mp3';
 
   @override
-  String get dashAssetsDirectory => 'assets/images/dashatar/green';
+  String get dashAssetsDirectory => 'assets/images/dashatar/tree';
 }
