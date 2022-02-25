@@ -344,7 +344,7 @@ class SimplePuzzleTile extends StatelessWidget {
             } else if (states.contains(MaterialState.hovered)) {
               return theme.hoverColor;
             } else {
-              return theme.defaultColor;
+              return Color(0xFF7FC4EC);
             }
           },
         ),

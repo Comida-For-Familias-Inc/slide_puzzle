@@ -42,6 +42,7 @@ flutter:
     - assets/images/dashatar/racecar/
     - assets/images/dashatar/city/
     - assets/images/dashatar/tree/
+    - assets/images/dashatar/logo/
   fonts:
     - family: GoogleSans
       fonts:
