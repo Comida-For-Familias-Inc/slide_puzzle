@@ -353,7 +353,7 @@ class SimplePuzzleTile extends StatelessWidget {
           ? () => context.read<PuzzleBloc>().add(TileTapped(tile))
           : null,
       child: Stack(children: [
-        Image.asset('images/dashatar/logo/'+ tile.value.toString() + '.png' ),
+        Image.asset('assets/images/dashatar/logo/${tile.value}.png' ),
         Text(
         tile.value.toString(),
         semanticsLabel: context.l10n.puzzleTileLabelText(
