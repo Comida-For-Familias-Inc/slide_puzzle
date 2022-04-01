@@ -22,6 +22,10 @@ To run the project either use the launch configuration in VSCode/Android Studio 
 $ flutter run -d chrome
 ```
 
+See our tutorial on how to get setup: 
+
+https://youtu.be/eXryfnN2IyA
+
 ---
 
 ## Running Tests 🧪
